@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 540px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.email-card {
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.email-card h2 {
+  font-size: 1rem;
+  color: #a0a0a0;
+  margin-bottom: 12px;
+}
+
+email {
+  display: inline-block;
+  font-size: 1rem;
+  color: #64b5f6;
+  font-family: monospace;
+}
+
+.btn-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #333;
+  color: #f0f0f0;
+  border: 1px solid #4f4f4f;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.btn-email:hover {
+  background-color: #444;
+  border-color: #666;
+}
+
+.btn-email svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn-htmlcode {
+  font-family: monospace;
+  background-color: #2d3748;
+  color: #90cdf4;
+  border: 1px solid #4a5568;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.btn-htmlcode:hover {
+  background-color: #3b4961;
+}
+
+.copy-feedback {
+  font-size: 0.85rem;
+  color: #81c784;
+  margin-top: 8px;
+  min-height: 1.2em;
+}
