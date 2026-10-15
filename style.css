@@ -55,7 +55,6 @@ a {
 .btn-email {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   background-color: #333;
   color: #f0f0f0;
   border: 1px solid #4f4f4f;
@@ -64,6 +63,8 @@ a {
   cursor: pointer;
   font-size: 0.95rem;
   transition: background-color 0.2s, border-color 0.2s;
+  height: 50px;
+  max-width: 100%;
 }
 
 .btn-email:hover {
@@ -71,9 +72,12 @@ a {
   border-color: #666;
 }
 
-.btn-email svg {
+.btn-email img {
   display: inline-block;
   vertical-align: middle;
+  max-width: 300px;
+  width: 100%;
+  object-fit: fit;
 }
 
 .btn-htmlcode {
@@ -95,6 +99,5 @@ a {
 .copy-feedback {
   font-size: 0.85rem;
   color: #81c784;
-  margin-top: 8px;
   min-height: 1.2em;
 }
